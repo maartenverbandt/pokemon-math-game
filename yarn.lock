@@ -692,11 +692,6 @@
   dependencies:
     "webidl-conversions" "^7.0.0"
 
-"dummy-component@git+https://github.com/recraftrelic/dummy-react-npm-module.git":
-  "integrity" "sha512-FqnYk8ptqUSdkprFdiorpt4xDUPMER9JH2x/zUN1hW5t+TEkdb48wFykVivSy06zXeNSIShVTi1K9OGUuQMu0Q=="
-  "resolved" "git+ssh://git@github.com/recraftrelic/dummy-react-npm-module.git#28b035b33409252ae2b65799030569a7eccd66fe"
-  "version" "1.0.0"
-
 "dunder-proto@^1.0.1":
   "integrity" "sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A=="
   "resolved" "https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz"

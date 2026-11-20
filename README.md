@@ -12,6 +12,10 @@ npm run dev
 This project uses Vite 4 to support Node.js 14. Both are out of support;
 upgrade Node and Vite when possible to receive security fixes.
 
+With npm 6, the install may warn that the lockfile uses a newer format and
+rewrite it. Warnings about optional dependencies for other operating systems
+are expected on Windows.
+
 Open the address printed by Vite. Run `npm test` for the existing smoke test
 and `npm run build` to create a production build in `dist`. Use
 `npm run preview` to preview that build locally.

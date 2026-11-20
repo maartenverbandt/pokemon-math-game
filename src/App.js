@@ -2,7 +2,6 @@ import React from 'react';
 import { useLocalStorage } from 'react-use';
 import logo from './logo.svg';
 import './App.css';
-import Dummy_Component from "dummy-component";
 import TopBarLayout from './components/topBar';
 import { Button, ThemeProvider, Typography, TextField, makeStyles } from '@material-ui/core';
 import {Box} from '@material-ui/core';
