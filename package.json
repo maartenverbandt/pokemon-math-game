@@ -1,0 +1,44 @@
+{
+  "name": "empty-react-project",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://USERNAME.github.io/REPOSITORY",
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "dummy-component": "git+https://github.com/recraftrelic/dummy-react-npm-module.git",
+    "react": "^16.8.6",
+    "react-cookie": "^7.2.2",
+    "react-dom": "^16.8.6",
+    "react-multi-carousel": "^2.8.5",
+    "react-use": "^17.6.0",
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "~4.3.4",
+    "jsdom": "^20.0.3",
+    "vite": "^4.5.14",
+    "vitest": "^0.34.6"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

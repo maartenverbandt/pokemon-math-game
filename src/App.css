@@ -1,0 +1,45 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7efdaf9e-1f66-42ce-ae5a-77307f45243c/d5nc329-35dfaffd-dbd8-4dd4-94a5-5bcf2df4ab89.jpg/v1/fill/w_1048,h_762,q_70,strp/pokemon_wallpaper__gotta_catch__em_all_by_k_u_r_o_m_i_z_u_d5nc329-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTMxIiwicGF0aCI6IlwvZlwvN2VmZGFmOWUtMWY2Ni00MmNlLWFlNWEtNzczMDdmNDUyNDNjXC9kNW5jMzI5LTM1ZGZhZmZkLWRiZDgtNGRkNC05NGE1LTViY2YyZGY0YWI4OS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.o8CiGoWpRYgPselFmjvzAaGM9Ww2hJDYeDMX6po1_eg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Full height */
+  
+  height: 100vh;
+  margin: 0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
