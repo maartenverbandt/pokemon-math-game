@@ -23,6 +23,10 @@ For a project site at `https://USERNAME.github.io/REPOSITORY/`, set
 resulting `dist` folder. For a user or organization site at the domain root,
 the default base path `/` works.
 
+The Pages workflow runs `npm install` before building. npm can update the
+lockfile in the runner's temporary checkout, but the workflow does not commit
+those changes back to the repository.
+
 The game stores progress in the browser's local storage. GitHub Pages serves
 static files and does not provide the backend for the example API requests.
 
